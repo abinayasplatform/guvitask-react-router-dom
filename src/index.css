@@ -1,0 +1,85 @@
+
+
+body{
+  margin:0 50px;
+  padding: 10px;
+  font-family:cursive !important;
+}
+
+#navbar{
+ display:flex;
+ align-items: last baseline; 
+ justify-content: center;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+  rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+width: 100%;
+padding: 5px 20px !important;
+height:50px;
+}
+
+#navbar li{
+  list-style: none;
+  padding:0 50px;
+  position:relative;
+}
+
+#navbar li a{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color:dodgerblue;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+  color:green;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+  content: "";
+  width:30%;
+  height:2px;
+  background: green;
+  position:absolute;
+  bottom:-4px;
+  left:20px;
+}
+
+.card-title a {
+  text-decoration: none;
+  color:brown;
+  font-size: 25px;
+  justify-content: center;
+}
+
+.card-text {
+  color:darkorchid;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+a.read {
+  text-decoration: none !important;
+  color: green;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  top: -10px;
+  position: relative;
+  left: 20px;
+}
+
+.card-footer{
+  height: 45px;
+}
+
+.card-footer-text {
+  color:black;
+  font-size: 19px;
+  padding: 7px;
+  line-height: 15.6px;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 0px;
+}
